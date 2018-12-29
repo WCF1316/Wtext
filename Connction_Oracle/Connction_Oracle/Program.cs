@@ -22,7 +22,11 @@ namespace Connction_Oracle
                 {
                     Oconn.Open();
                     int row = OCmd.ExecuteNonQuery();
-                    Console.WriteLine("插入了" + row + "行");
+                    Console.WriteLine("插入了" + row + "行"); 
+			Console.WriteLine("插入了" + row + "行");
+			Console.WriteLine("插入了" + row + "行"); 
+			Console.WriteLine("插入了" + row + "行"); 
+
                 }
             }
             Console.Read();
